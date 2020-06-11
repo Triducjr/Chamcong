@@ -1,0 +1,82 @@
+header {
+    height: 70px;
+    background-color: #0c720c;
+    background-position: top;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_left {
+    position: absolute;
+    top: 7px;
+    float: left;
+    height: 50px;
+   
+}
+
+.menu_left ul li {
+    list-style: none;
+    float: left;
+    padding: 4px 30px;
+}
+
+.menu_left ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu_left ul li>.sub_menu {
+    display: none;
+    background-color: darkslategrey;
+}
+
+.menu_left ul li :hover .sub_menu {
+    display: block;
+}
+
+.menu_right {
+    position: relative;
+    top: 7px;
+    height: 50px;
+    width: 250px;
+    float: right;
+}
+
+.menu_right ul li {
+    list-style: none;
+    padding: 4px 10px;
+    float: left;
+}
+
+.menu_right ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h2{
+
+    margin-left: 200px;
+}
+
+.ant_divider {
+    display: block;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    margin: 24px 0;
+}
+
+.row {
+    margin-left: -1.16rem;
+    margin-right: -1.16rem;
+    display: flex;
+}
